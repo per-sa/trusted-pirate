@@ -2,12 +2,50 @@
   <head>
     <title>Le Funny Extension</title>
     <meta charset="utf-8" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
   </head>
+
   <body>
     <div class="container">
-        <h1>Hello</h1>
+      <h1 class="has-text-black has-text-centered is-size-5">Trusted Pirate</h1>
+      <img
+        src="logo.png"
+        style="
+          width: 128px !important;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        "
+      />
+      <div class="btns has-text-center" style="text-align: center">
+        <button class="button mt-4 has-background-primary has-text-white">
+          Check Site
+        </button>
+        <button class="button mt-4 has-background-danger has-text-white">
+          Report Site
+        </button>
+      </div>
+      <hr />
+      <div class="box has-text-centered" style="width: 90%; margin: 0 auto">
+        <p>The current website:</p>
+        <p class="has-text-info">https://google.com</p>
+        <p>based on user reports is:</p>
+        <p class="is-size-3 has-text-success">SAFE</p>
+      </div>
     </div>
-  <script src="script.js"></script>
+    <div class="footer has-text-centered" style="height: 10px">
+      <a href="https://rentry.org/pgames-mega-thread" target="_blank"
+        >Megathread</a
+      >
+      <p>
+        by <a href="https://github.com/matheusclmb" target="_blank">clmb</a> &
+        <a href="https://github.com/scariotlouis" target="_blank">scariot</a>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
