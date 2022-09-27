@@ -1,0 +1,14 @@
+{
+  "name": "Trusted Pirate",
+  "version": "1.0.0",
+  "description": "Check if a sea is safe for pirates",
+  "manifest_version": 3,
+  "author": "CLMB, Scariot",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Are these waters really safe?"
+  },
+  "icons": {
+    "128": "coin.png"
+  }
+}
