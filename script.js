@@ -1,5 +1,7 @@
-function get_current_url() {
-  document.getElementById("current-url").innerHTML = window.location.toString();
-}
+const checksite = () => {
+  alert("Checking website...");
+};
 
-get_current_url();
+const reportsite = () => {
+  alert("This website was reported and sent to the team. Thank you!");
+};

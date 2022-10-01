@@ -9,7 +9,7 @@
     "default_title": "Are these waters really safe?"
   },
   "icons": {
-    "128": "coin.png"
+    "128": "logo.png"
   },
   "background": {
     "service_worker": "background.js"
